@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tracker</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: auto;
+    }
+
+    img {
+        width: 3rem;
+        height: 3rem;
+        ;
+    }
+
+    input {
+        margin: 10%;
+        width: 4rem;
+        height: 3rem;
+        text-align: center;
+    }
+
+    textarea {
+        margin-left: 5%;
+    }
+</style>
+
+<body>
+    <div class="table-responsive-lg">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col" colspan="2">Breakfast</th>
+                    <th scope="col" colspan="2">Lunch</th>
+                    <th scope="col" colspan="2">Dinner</th>
+                    <th scope="col" colspan="2">Nighttime</th>
+                </tr>
+                <tr>
+                    <th scope="col">Sleep: </th>
+                    <th scope="col">Before</th>
+                    <th scope="col">After</th>
+                    <th scope="col">Before</th>
+                    <th scope="col">After</th>
+                    <th scope="col">Before</th>
+                    <th scope="col">After</th>
+                    <th scope="col">Before</th>
+                    <th scope="col">After</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        <img src="/icons/wall-clock.svg" alt="blood">
+                    </th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                    <th scope="col"><input type="time" name="time" id="time" placeholder="enter time"></th>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <img src="/icons/blood-test.svg" alt="blood">
+                    </th>
+                    <th scope="col"><input type="number" name="blood" id="before-meal"></th>
+                    <th scope="col"><input type="number" name="blood" id="after-meal"></th>
+                    <th scope="col"><input type="number" name="blood" id="before-meal"></th>
+                    <th scope="col"><input type="number" name="blood" id="after-meal"></th>
+                    <th scope="col"><input type="number" name="blood" id="before-meal"></th>
+                    <th scope="col"><input type="number" name="blood" id="after-meal"></th>
+                    <th scope="col"><input type="number" name="blood" id="before-meal"></th>
+                    <th scope="col"><input type="number" name="blood" id="after-meal"></th>
+                </tr>
+                <tr>
+                    <th scope="row"> <img src="/icons/pharmacy-medicine.svg" alt="meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="before-meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="after-meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="before-meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="after-meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="before-meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="after-meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="before-meds"></th>
+                    <th scope="col"><input type="number" name="meds" id="after-meds"></th>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <img src="/icons//comment-blog.svg" alt="note">
+
+                    </th>
+                    <th scope="col" colspan="2"> <textarea name="note" id="note" cols="16" rows="4"></textarea></th>
+                    <th scope="col" colspan="2"> <textarea name="note" id="note" cols="16" rows="4"></textarea></th>
+                    <th scope="col" colspan="2"> <textarea name="note" id="note" cols="16" rows="4"></textarea></th>
+                    <th scope="col" colspan="2"> <textarea name="note" id="note" cols="16" rows="4"></textarea></th>
+                </tr>
+            </tbody>
+        </table>
+</body>
+
+</html>
